@@ -6,6 +6,8 @@
 # Add Calendar Reminder (Add to calendar)
 Enable "Add to calendar" buttons on landing pages and email templates, for Google Calendar and Outlook Calendar.
 
+![Activar](screenshots/screenshot1.png?raw=true "Activar")
+
 *Some considerations*
 Google Calendar: This module uses the Hubspot account timezone to set the event's exact date and time, be sure to verify this setting before using this module.
 Outlook Calendar: This module reformats the event date and time to GMT time.

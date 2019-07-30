@@ -1,0 +1,8 @@
+{% if module.activate %}
+  <p>
+    <a class="btn-google-calendar" title="Agéndalo en tu Google Calendar" target="_blank" style="padding: 6px 10px; margin-right: 10px;border-radius: 6px;color: rgb(255,255,255);background:#277ec5; display: inline-block; text-decoration: none;" href="https://calendar.google.com/calendar/r/eventedit?text={{ module.evento }}&dates={{ module.fechainicio|datetimeformat('%Y%m%dT%k%M%S') }}/{{ module.fechacierre|datetimeformat('%Y%m%dT%k%M%S') }}&ctz={{ local_time_zone }}&details={{ module.detalles }}">Google Calendar &nbsp;&nbsp;<i class="fa fa-plus" aria-hidden="true"></i></a>
+    <a class="btn-outlook" title="Agéndalo en tu Calendario de Outlook" target="_blank" style="padding: 6px 10px;border-radius: 6px;color: rgb(255,255,255);background:#277ec5; display: inline-block; text-decoration: none;" href="https://outlook.live.com/owa/?path=/calendar/view/Month&rru=addevent&startdt={{ module.fechainicio|datetimeformat('%Y%m%dT%k%M%S', 'GMT') }}&enddt={{ module.fechacierre|datetimeformat('%Y%m%dT%k%M%S', 'GMT') }}&subject={{ module.evento }}&body={{ module.detalles }}">Outlook Calendar &nbsp;&nbsp;<i class="fa fa-plus" aria-hidden="true"></i></a>
+  </p>
+{% else %}
+  <p>Agregar a tu calendario, ve a la configuración del módulo para personalizarlo</p>
+{% endif %}

@@ -1,0 +1,72 @@
+{
+  "activate.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "activate.label" : {
+    "message" : "Activate",
+    "description" : null,
+    "placeholders" : null
+  },
+  "detalles.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "detalles.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "detalles.label" : {
+    "message" : "Event details",
+    "description" : null,
+    "placeholders" : null
+  },
+  "evento.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "evento.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "evento.label" : {
+    "message" : "Event Name",
+    "description" : null,
+    "placeholders" : null
+  },
+  "evento.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "evento.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "fechacierre.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "fechacierre.label" : {
+    "message" : "End date",
+    "description" : null,
+    "placeholders" : null
+  },
+  "fechainicio.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "fechainicio.label" : {
+    "message" : "Start Date",
+    "description" : null,
+    "placeholders" : null
+  }
+}

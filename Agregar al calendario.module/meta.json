@@ -1,0 +1,22 @@
+{
+  "contains_overridable_hubl_tags" : false,
+  "content_tags" : [ ],
+  "css_assets" : [ ],
+  "editable_contexts" : [ ],
+  "external_js" : [ ],
+  "extra_classes" : "",
+  "global" : false,
+  "help_text" : "",
+  "host_template_types" : [ "ANY" ],
+  "js_assets" : [ ],
+  "label" : "Agregar al calendario",
+  "other_assets" : [ ],
+  "placement_rules" : [ ],
+  "purchased" : false,
+  "smart_type" : "NOT_SMART",
+  "tags" : [ ],
+  "portal_id" : 596480,
+  "id" : 6980165315,
+  "module_id" : 4658644,
+  "is_available_for_new_content" : true
+}

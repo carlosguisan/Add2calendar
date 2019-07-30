@@ -1,0 +1,76 @@
+[ {
+  "id" : "83c8fa52-ba2b-892d-4031-401e2781e286",
+  "name" : "activate",
+  "label" : "Activar",
+  "sortable" : false,
+  "required" : false,
+  "locked" : false,
+  "type" : "boolean",
+  "default" : false
+}, {
+  "id" : "f041c1a7-f291-cb88-97b1-f0c4b858fcd8",
+  "name" : "evento",
+  "label" : "Evento",
+  "sortable" : false,
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "visibility" : {
+    "controlling_field" : "83c8fa52-ba2b-892d-4031-401e2781e286",
+    "controlling_value_regex" : "true",
+    "operator" : "EQUAL",
+    "access" : null
+  },
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : null
+}, {
+  "id" : "c84eea66-c5c8-0c9f-675e-3799fd5138be",
+  "name" : "fechainicio",
+  "label" : "Fecha de inicio",
+  "sortable" : false,
+  "required" : false,
+  "locked" : false,
+  "visibility" : {
+    "controlling_field" : "83c8fa52-ba2b-892d-4031-401e2781e286",
+    "controlling_value_regex" : "true",
+    "operator" : "EQUAL",
+    "access" : null
+  },
+  "step" : 15,
+  "type" : "datetime",
+  "default" : 1546927200000
+}, {
+  "id" : "4112e8b6-6604-3d77-bd8b-bccfe851f6b7",
+  "name" : "fechacierre",
+  "label" : "Fecha de cierre",
+  "sortable" : false,
+  "required" : false,
+  "locked" : false,
+  "visibility" : {
+    "controlling_field" : "83c8fa52-ba2b-892d-4031-401e2781e286",
+    "controlling_value_regex" : "true",
+    "operator" : "EQUAL",
+    "access" : null
+  },
+  "step" : 15,
+  "type" : "datetime",
+  "default" : 1546927200000
+}, {
+  "id" : "099d521d-7dfe-eb48-d959-d1969bd9013a",
+  "name" : "detalles",
+  "label" : "Detalles",
+  "sortable" : false,
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "visibility" : {
+    "controlling_field" : "83c8fa52-ba2b-892d-4031-401e2781e286",
+    "controlling_value_regex" : "true",
+    "operator" : "EQUAL",
+    "access" : null
+  },
+  "type" : "richtext",
+  "default" : null
+} ]

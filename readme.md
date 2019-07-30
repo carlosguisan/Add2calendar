@@ -17,6 +17,8 @@ This module reformats the event date and time to GMT time.
 ## How to use this module
 You can use this module in a page/email drag-and-drop template, and fill the fields with the required information:
 
+![Use](screenshots/screenshot3.png?raw=true "Use")
+
 **Activate**
 Enable/Disable the "add to calendar" buttons.
 

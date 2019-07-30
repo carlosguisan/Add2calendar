@@ -8,11 +8,13 @@ Enable "Add to calendar" buttons on landing pages and email templates, for Googl
 
 ![Activar](screenshots/screenshot1.png?raw=true "Activar")
 
-#Some considerations
-*Google Calendar*: This module uses the Hubspot account timezone to set the event's exact date and time, be sure to verify this setting before using this module.
-*Outlook Calendar*: This module reformats the event date and time to GMT time.
+## Some considerations
+### Google Calendar*:
+This module uses the Hubspot account timezone to set the event's exact date and time, be sure to verify this setting before using this module.
+### Outlook Calendar*:
+This module reformats the event date and time to GMT time.
 
-#How to use this module
+## How to use this module
 You can use this module in a page/email drag-and-drop template, and fill the fields with the required information:
 
 **Activate**
